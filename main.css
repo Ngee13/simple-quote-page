@@ -31,3 +31,12 @@ body {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+@media (max-width: 400px) and (max-height: 600px) {
+  .qutoe {
+    font-size: 2.7vmax;
+  }
+  .author {
+    font-size: 2vmax;
+  }
+}
